@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Texturina:ital@0;1&display=swap');
+
+
+*, *::after, *,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Josefin', sans-serif;
+    background-color: rgb(5, 172, 5);
+}
+
+.container{
+    margin-top:50px;
+    text-align:center;
+    line-height: 20px;
+}
+
+.container h1{
+    font-family: 'Texturina', serif;
+    font-size: 52px;
+    margin-bottom: 40px;
+    letter-spacing:10px;
+}
+
+.container h1 + p{
+    width: 60%;
+    margin: 0 auto 50px;
+    color: hsl(0, 0%, 100%);
+}
+.pricing_1{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+.pricing_child{
+    width: 200px;
+    background: #fff;
+    margin: 5px 10px 50px;
+    padding: 30px 20px;
+    box-shadow: 0 0 2px black;
+    border-radius: 25px;
+}
+.pricing_child:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.pricing_1 .pricing_child h3{
+    font-size: 26px;
+
+}
+.pricing_1 .pricing_child p.money{
+    margin: 50px 0 20px;
+    font-size: 52px;
+    color: #4aca85;
+}
+.pricing_1 .pricing_child p.money span{
+    font-size: 12px;
+    color: #bebebe;
+    font-weight: bold;
+}
+.pricing_1 .pricing_child p{
+    color: #bebebe;
+}
+.pricing_1 .pricing_child a.btn{
+display: block;
+margin-top: 20px;
+background-color:rgb(5, 172, 5);
+text-decoration: none;
+padding: 10px;
+border-radius: 25px;
+}
